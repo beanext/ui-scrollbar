@@ -1,0 +1,39 @@
+{
+  "name": "ui-scrollbar",
+  "homepage": "https://github.com/beanext/ui-scrollbar",
+  "authors": [
+    "Ethan Zhao"
+  ],
+  "main": [
+    "bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css",
+    "bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js",
+    "bower_components/malihu-custom-scrollbar-plugin/mCSB_buttons.png",
+    "dist/beanext-ui-scrollbar.js"
+  ],
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "^1.4.0",
+    "malihu-custom-scrollbar-plugin": "^3.1.5"
+  },
+  "ignore": [
+    "**/.*",
+    "src*",
+    "node_modules",
+    "bower_components",
+    "test*",
+    "demo*",
+    "example*",
+    "GruntFile.js",
+    "package.json"
+  ],
+  "devDependencies": {
+    "angular-animate": "^1.4.0",
+    "angular-cookies": "^1.4.0",
+    "angular-resource": "^1.4.0",
+    "angular-sanitize": "^1.4.0",
+    "angular-touch": "^1.4.0",
+    "angular-mocks": "^1.4.0"
+  },
+  "appPath": "app",
+  "moduleName": "uiScrollbarApp"
+}
