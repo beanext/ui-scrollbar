@@ -5,9 +5,8 @@
     "Ethan Zhao"
   ],
   "main": [
-    "bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css",
-    "bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js",
-    "bower_components/malihu-custom-scrollbar-plugin/mCSB_buttons.png",
+    "dist/mCustomScrollbar/jquery.mCustomScrollbar.min.css",
+    "dist/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js",
     "dist/beanext-ui-scrollbar.js"
   ],
   "version": "0.0.1",

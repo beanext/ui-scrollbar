@@ -12,7 +12,7 @@
 <body ng-app="uiScrollbarApp" ng-controller="uiScrollbarCtrl">
 <div id="demo" class="showcase">
   <section id="examples">
-    <div id="content-1" class="content" bui-scrollbar>
+    <div id="content-1" class="content" bui-scrollbar auto-hide-scrollbar="true">
       <h2>Default scrollbar</h2>
       <hr/>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -40,7 +40,7 @@
       <hr/>
       <p>End of content.</p>
     </div>
-    <div id="content-2" class="content light" bui-scrollbar theme="minimal-dark">
+    <div id="content-2" class="content light" bui-scrollbar auto-hide-scrollbar="true" theme="minimal-dark">
       <h2>theme: "minimal-dark"</h2>
       <hr/>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -228,7 +228,6 @@
         <li><img src="images/img7.jpg"/></li>
       </ul>
     </div>
-
   </section>
 </div>
 <script src="scripts/jquery.min.js"></script>

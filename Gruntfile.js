@@ -100,34 +100,18 @@ module.exports = function (grunt) {
           src: [
             '**'
           ]
+        }, {
+          expand: true,
+          dot: true,
+          cwd: 'bower_components/malihu-custom-scrollbar-plugin/',
+          dest: '<%= yeoman.dist %>/mCustomScrollbar/',
+          src: [
+            'jquery.mCustomScrollbar.concat.min.js', 'jquery.mCustomScrollbar.min.css', 'mCSB_buttons.png'
+          ]
         }]
       },
       example: {
         files: [{
-          expand: true,
-          dot: true,
-          cwd: '<%= yeoman.dist %>',
-          dest: '<%= yeoman.example %>/scripts/',
-          src: [
-            '*.js'
-          ]
-        }, {
-          expand: true,
-          dot: true,
-          cwd: 'bower_components/jquery/dist',
-          dest: '<%= yeoman.example %>/scripts/',
-          src: [
-            'jquery.min.js'
-          ]
-        }, {
-          expand: true,
-          dot: true,
-          cwd: 'bower_components/jquery-mousewheel/',
-          dest: '<%= yeoman.example %>/scripts/',
-          src: [
-            'jquery.mousewheel.min.js'
-          ]
-        }, {
           expand: true,
           dot: true,
           cwd: 'bower_components/malihu-custom-scrollbar-plugin/',
