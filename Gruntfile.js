@@ -100,14 +100,6 @@ module.exports = function (grunt) {
           src: [
             '**'
           ]
-        }, {
-          expand: true,
-          dot: true,
-          cwd: 'bower_components/malihu-custom-scrollbar-plugin/',
-          dest: '<%= yeoman.dist %>/mCustomScrollbar/',
-          src: [
-            'jquery.mCustomScrollbar.concat.min.js', 'jquery.mCustomScrollbar.min.css', 'mCSB_buttons.png'
-          ]
         }]
       },
       example: {

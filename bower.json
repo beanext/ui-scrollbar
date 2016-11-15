@@ -5,8 +5,6 @@
     "Ethan Zhao"
   ],
   "main": [
-    "dist/mCustomScrollbar/jquery.mCustomScrollbar.min.css",
-    "dist/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js",
     "dist/beanext-ui-scrollbar.js"
   ],
   "version": "0.0.1",
